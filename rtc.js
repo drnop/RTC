@@ -107,7 +107,7 @@ Config.prototype.updateConfig = function(th) {
     var ppost = {}
     ppost["table"] = th.table;
     ppost["post"] = post;
-    alert(JSON.stringify(post));
+    //    alert(JSON.stringify(post));
     sendXpost2(th.xhr,th,th.updateConfigURL,ppost,th.getConfigResponse);
 }
 
@@ -2695,7 +2695,7 @@ function cbDLP() {
     post["email"] = email;
     var username = document.getElementById("username").value;        
     post["username"] = username;
-    alert("post is " + JSON.stringify(post));
+    //    alert("post is " + JSON.stringify(post));
     sendXpost(gl_dlp_xhr,"/cgi-bin/rtcDLPreport.py",post,DLPreportResponse);    
     gl_retcode = "Retrieving events,please wait...";
     updateRetCode("Wait",gl_retcode);
@@ -2710,7 +2710,7 @@ function DLPreportResponse(dlp_xhr) {
 	alert("Error :" + rsp.rtcResult);
 	return
     }
-    alert(JSON.stringify(rsp));
+    //    alert(JSON.stringify(rsp));
 
     var smadata = []
     smadata = rsp.smadata;
@@ -2753,7 +2753,7 @@ function DLPreportResponse(dlp_xhr) {
 	    
 
 	}
-	addRow(divDetails,"-","","divHeaderRow");
+
 	addRow(divDetails,"DUO Auth Logs","","divHeaderRow");
 	var divHeadRow = tableHeader(divDetails);
 

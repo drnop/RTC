@@ -18,15 +18,12 @@ eventtables  = [ "swevents","umbevents","ampevents"]
 
 class RTCDB:
     def  __init__(self):
-        creds = json.loads(open("/usr/lib/cgi-bin/rtcdb.json").read())
-        self.dbusername = creds["dbusername"]                                                           
-        self.dbpassword = creds["dbpassword"]
+
         if 'REQUEST_METHOD' in os.environ:
             filename = "/tmp/rtcdb.log"
         else:
             filename = "/tmp/rtcdb2.log"
         self.logger = rtclogger.LOGGER(prefix="RTCDB",filename=filename)
-        self.dbconn = None
 
     def exception_info(self,err):
         exc_type, exc_obj, exc_tb = sys.exc_info()

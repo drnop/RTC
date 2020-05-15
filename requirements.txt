@@ -1,0 +1,5 @@
+requests
+pymongo
+ldap3
+websockets
+psutil
