@@ -1682,7 +1682,7 @@ function addCellButton2(divRow,id,label,type,callback,th) {
 function mAbout() {
 
     gl_view = "";
-    var t = "Mice Control - A revolutionary system for Rapid Threat Containment of Evil Rats. Powered by cats.py<br><br>";
+    var t = "RTC v1.3A revolutionary system for Rapid Threat Containment of Evil Rats. Powered by cats.py<br><br>";
     t = t+ '<img src="about.jpg"></img><br><br>';
     t = t+ "Copyright &copy 1997-2018";
     displayText(t);
