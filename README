@@ -1,1 +1,10 @@
-To install on system with docker-compose, download docker-compose.yml and run docker-compose up.
+IMPORTANT, FILES ON THIS REPO ARE NOT YET UPDATED. LATEST FILES ARE IN FILE YOU GET FROM DOCKER HUB.
+
+To install on system with docker-compose, 
+1. download docker-compose.yml and 
+2. run docker-compose up.
+
+Logon to the system with https://<ip of machine>. with creds admin / C!sco123
+
+We will soon add instruction videos on how to setup and configure, but should be reasonable self explanatory from GUI.
+
