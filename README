@@ -1,7 +1,7 @@
-IMPORTANT, FILES ON THIS REPO ARE NOT YET UPDATED. LATEST FILES ARE IN FILE YOU GET FROM DOCKER HUB.
+IMPORTANT, MOST FILES ON THIS REPO ARE NOT YET UPDATED. LATEST FILES ARE IN FILE YOU GET FROM DOCKER HUB.
 
 To install on system with docker-compose, 
-1. download docker-compose.yml and 
+1. download docker-compose.yml from this repo  and 
 2. run docker-compose up.
 
 Logon to the system with https://<ip of machine>. with creds admin / C!sco123
